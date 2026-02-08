@@ -1,3 +1,7 @@
+package cz.matejmicikas.bipsi.client;
+
+import cz.matejmicikas.bipsi.auth.Authentication;
+
 import java.io.*;
 import java.net.Socket;
 

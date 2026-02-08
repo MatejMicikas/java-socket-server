@@ -1,3 +1,7 @@
+package cz.matejmicikas.bipsi.client;
+
+import cz.matejmicikas.bipsi.protocol.ServerMessages;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -46,7 +50,7 @@ public class ClientReader {
         return null;
     }
 
-    String rechargingRead(int maxLength) throws IOException {
+    public String rechargingRead(int maxLength) throws IOException {
         String message = this.read(maxLength);
         if (message != null && message.equals("RECHARGING")) {
             this.socket.setSoTimeout(5000);

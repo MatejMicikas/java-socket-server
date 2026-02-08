@@ -1,3 +1,8 @@
+package cz.matejmicikas.bipsi.auth;
+
+import cz.matejmicikas.bipsi.client.ClientReader;
+import cz.matejmicikas.bipsi.protocol.ServerMessages;
+
 import java.io.*;
 import java.net.Socket;
 

@@ -1,3 +1,7 @@
+package cz.matejmicikas.bipsi;
+
+import cz.matejmicikas.bipsi.client.ClientHandler;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;

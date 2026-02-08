@@ -1,3 +1,5 @@
+package cz.matejmicikas.bipsi.protocol;
+
 public class ServerMessages {
     public static final String SERVER_CONFIRMATION = "<16-bitové číslo v decimální notaci>\u0007\u0008";
     public static final String SERVER_MOVE = "102 MOVE\u0007\u0008";
